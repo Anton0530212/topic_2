@@ -1,6 +1,7 @@
-price = 50
-quantity = 3
-total_cost = price * quantity
+"""Программа для кассового аппарата в магазине"""
+price: int = 50
+quantity: int = 3
+total_cost: int = price * quantity
 
 print('Вы должны заплатить', total_cost,
       'рублей за', quantity, 'единиц товара по цене',
