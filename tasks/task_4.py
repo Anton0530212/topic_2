@@ -1,4 +1,5 @@
 """Программа для кассового аппарата в магазине"""
+
 price: int = 50
 quantity: int = 3
 total_cost: int = price * quantity

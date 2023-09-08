@@ -2,11 +2,12 @@
 подоходного налога и сумму, которую сотрудник
 получит на руки, исходя из заданных значений
 оклада (зарплаты) и ставки подоходного налога."""
+
 oklad: int = 50000
 tax_rate: float = 0.13
 
-tax = (oklad * tax_rate)
-salary = oklad - tax
+tax: float = oklad * tax_rate
+salary: float = oklad - tax
 
 print('Размер зарплаты:', oklad, 'рублей')
 print('Размер подоходного налога:', tax, 'рублей')
