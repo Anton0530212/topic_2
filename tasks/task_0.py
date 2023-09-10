@@ -2,4 +2,4 @@
 "Hello, world!" 10 раз, каждый раз на
 отдельной строке."""
 
-print('Hello, world!\n' * 10)
+print('Hello, world!\n' * 10, end='')
